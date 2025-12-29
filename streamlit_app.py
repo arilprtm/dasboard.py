@@ -34,7 +34,9 @@ df_filtered = df[
 
 st.subheader("Data Tabel")
 st.dataframe(df_filtered)
+
 st.subheader("Visualisasi Statistik")
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -85,5 +87,3 @@ line_age = px.line(
 )
 
 st.plotly_chart(line_age)
-
-
